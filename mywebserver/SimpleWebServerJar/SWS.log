@@ -1,0 +1,74 @@
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/examples/: init
+[Mon Aug 28 20:53:31 EDT 2023] /cgi-bin: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/examples/: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/examples/: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/examples/: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/examples/: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/examples/: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/examples/: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/a2servlets/: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/examples/: init
+[Mon Aug 28 20:53:31 EDT 2023] /servlets/: init
+[Mon Aug 28 20:54:05 EDT 2023] /127.0.0.1 GET / 200
+[Mon Aug 28 20:54:05 EDT 2023] /127.0.0.1 GET /favicon.ico 404
+[Mon Aug 28 20:54:09 EDT 2023] /127.0.0.1 GET /personalsite/landing.html 200
+[Mon Aug 28 20:54:12 EDT 2023] /127.0.0.1 GET /personalsite/mypage.html 200
+[Mon Aug 28 20:54:12 EDT 2023] /127.0.0.1 GET /personalsite/headshot2.jpeg 200
+[Mon Aug 28 20:54:12 EDT 2023] /127.0.0.1 GET /personalsite/link.png 200
+[Mon Aug 28 20:54:16 EDT 2023] /127.0.0.1 GET /test.html 200
+[Mon Aug 28 20:54:34 EDT 2023] /127.0.0.1 POST /login 404
+[Mon Aug 28 20:55:10 EDT 2023] /127.0.0.1 GET / 200
+[Mon Aug 28 20:55:10 EDT 2023] /127.0.0.1 GET /favicon.ico 404
+[Mon Aug 28 20:55:29 EDT 2023] /127.0.0.1 GET /test.html 200
+[Mon Aug 28 20:55:30 EDT 2023] /127.0.0.1 GET /index.html 200
+[Mon Aug 28 20:55:32 EDT 2023] /127.0.0.1 GET /subdir/test2.html 200
+[Mon Aug 28 20:56:06 EDT 2023] Empty request
+[Mon Aug 28 20:56:06 EDT 2023] /127.0.0.1 null null 400
+[Mon Aug 28 20:56:29 EDT 2023] /127.0.0.1 GET /a2html/home.html 200
+[Mon Aug 28 20:56:29 EDT 2023] /127.0.0.1 GET /a2html/images/landing.png 200
+[Mon Aug 28 20:56:31 EDT 2023] /127.0.0.1 POST /servlets/a2servlets/A2Servlet 302
+[Mon Aug 28 20:56:31 EDT 2023] /127.0.0.1 GET /a2html/register.html 200
+[Mon Aug 28 20:56:42 EDT 2023] /127.0.0.1 POST /servlets/a2servlets/A2Servlet 302
+[Mon Aug 28 20:56:42 EDT 2023] /127.0.0.1 GET /a2html/login.html 200
+[Mon Aug 28 20:56:47 EDT 2023] /127.0.0.1 POST /servlets/a2servlets/A2Servlet 302
+[Mon Aug 28 20:56:47 EDT 2023] /127.0.0.1 GET /a2html/relogin.html 200
+[Mon Aug 28 20:56:52 EDT 2023] /127.0.0.1 POST /servlets/a2servlets/A2Servlet 302
+[Mon Aug 28 20:56:52 EDT 2023] /127.0.0.1 GET /a2html/shop.html 200
+[Mon Aug 28 20:56:52 EDT 2023] /127.0.0.1 GET /a2html/images/drink.png 200
+[Mon Aug 28 20:56:52 EDT 2023] /127.0.0.1 GET /a2html/images/hourglass.png 200
+[Mon Aug 28 20:56:52 EDT 2023] /127.0.0.1 GET /a2html/images/planner.png 200
+[Mon Aug 28 20:56:52 EDT 2023] /127.0.0.1 GET /a2html/images/quill.png 200
+[Mon Aug 28 20:56:52 EDT 2023] /127.0.0.1 GET /a2html/images/cloak.png 200
+[Mon Aug 28 20:56:56 EDT 2023] /127.0.0.1 POST /servlets/a2servlets/A2Servlet 302
+[Mon Aug 28 20:56:56 EDT 2023] /127.0.0.1 GET /a2html/shop.html 200
+[Mon Aug 28 20:56:59 EDT 2023] /127.0.0.1 POST /servlets/a2servlets/A2Servlet 302
+[Mon Aug 28 20:56:59 EDT 2023] /127.0.0.1 GET /a2html/shop.html 200
+[Mon Aug 28 20:57:01 EDT 2023] /127.0.0.1 POST /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:04 EDT 2023] /127.0.0.1 POST /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:52 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:52 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:52 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:55 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:55 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:55 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:56 EDT 2023] /192.168.0.113 GET /a2html 302
+[Mon Aug 28 20:57:56 EDT 2023] /192.168.0.113 GET /a2html/ 200
+[Mon Aug 28 20:57:56 EDT 2023] /192.168.0.113 GET /favicon.ico 404
+[Mon Aug 28 20:57:57 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:57 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:57:57 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:58:00 EDT 2023] /192.168.0.113 GET /a2html/home.html 200
+[Mon Aug 28 20:58:01 EDT 2023] /192.168.0.113 GET /a2html/images/landing.png 200
+[Mon Aug 28 20:58:04 EDT 2023] unexpected problem running servlet: java.lang.NullPointerException
+java.lang.NullPointerException
+	at ServeConnection.runServlet(Serve.java:1415)
+	at ServeConnection.parseRequest(Serve.java:1388)
+	at ServeConnection.run(Serve.java:1264)
+	at java.lang.Thread.run(Thread.java:750)
+[Mon Aug 28 20:58:04 EDT 2023] /127.0.0.1 GET /servlets/a2servlets/home.html 500
+[Mon Aug 28 20:58:04 EDT 2023] /192.168.0.113 POST /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:58:10 EDT 2023] /192.168.0.113 POST /servlets/a2servlets/A2Servlet 200
+[Mon Aug 28 20:58:15 EDT 2023] /192.168.0.113 POST /servlets/a2servlets/A2Servlet 302
+[Mon Aug 28 20:58:15 EDT 2023] /192.168.0.113 GET /a2html/login.html 200
+[Mon Aug 28 20:58:20 EDT 2023] /192.168.0.113 POST /servlets/a2servlets/A2Servlet 302
+[Mon Aug 28 20:58:20 EDT 2023] /192.168.0.113 GET /a2html/relogin.html 200

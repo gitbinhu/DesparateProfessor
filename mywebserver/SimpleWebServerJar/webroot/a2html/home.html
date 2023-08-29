@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to the Desperate Professor</title>
+    </head>
+
+    <body>
+        <div>
+        <h1 style="text-align:center">Welcome to the Desparate Professor</h1>
+        <h2 style="text-align:center">Your one-stop shop for all things crazed academic</h2>
+        <img src="./images/landing.png" alt="Desparate Professor Corporate Logo" style="width: 15%; float: left; margin-right: 10px; margin-bottom: 10px;"/>
+        <p>Welcome to the Desperate Professor! The sanctuary for the scholarly soul! Are you mired in manuscripts or entangled in equations? Do deadlines loom like a specter over your office desk? Fear not, for you've stumbled upon the secret haven of the academic elite. </p>
+        <p>At the Desperate Professor, we've curated a members-only collection of tools, trinkets, and treasures designed to cater to the unique needs of the erudite and the eager. From rare books to research gadgets, writing wizardry to caffeine concoctions, our virtual shelves are lined with everything a dedicated scholar like your good self might crave.</p>
+        <p>Membership at the Desperate Professor is more than a priviledge; it's an intellectual indulgence. Join us today and embark on a journey through aisles filled with scholarly delights, all crafted to make your academic adventures a tad less daunting and a whole lot more inspiring. Unlock the door to a wolrd of wisdom with the Desperate Professor, and let the desperate become the distinguished.</p>
+        <p>To keep our sanctuary safe from nosey undergrads, we ask that you please log-in or create a membership account before you explore our out-of-this-world selection.</p>
+        <p></p>
+        <p></p>
+        </div>    
+        <div style="text-align:center; border: 3px solid black; padding: 20px; width: 200px; margin-top: 40px; margin-left: 42%;">
+            <form action="../../servlets/a2servlets/A2Servlet" method="post">
+                <button type="submit" name="action" value="login">Log in</button>
+            </form>
+            <form action="../../servlets/a2servlets/A2Servlet" method="post">
+                <button type="submit" name="action" value="register">Become a Desperate Professor</button>
+            </form>
+            <form action="../../servlets/a2servlets/A2Servlet" method="post">
+                Enter Your Username: <input type="text" placeholder="Enter your username here" name="username">
+                <p></p>
+                Enter Your Order Number: <input type="text" placeholder="Enter your order number here" name="ordernumber">
+                <p></p>
+	        <button type="submit" name="action" value="checkorder">Check Order Status</button>
+            </form>
+            <form action="../../servlets/a2servlets/A2Servlet" method="post">
+                <button type="submit" name="action" value="undergrad">I'm an undergrad</button>
+            </form>
+            <input type="hidden" name="loggedin" value="false">
+        </div>
+    </body>
+    <footer>
+        <p style="text-align:center">&copy;2023 The Desperate Professor</p>
+        <p style="text-align:center">If you're not desperate, are you really even an academic?</p>
+    </footer>
+</html>
+

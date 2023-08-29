@@ -1,0 +1,14 @@
+<html>
+<head><title>Test Login</title>
+<body>
+<form action="http://unix.seas.gwu.edu:40/servlets/examples/TestLogin" method="post">
+<!--
+<form action="http://localhost:40013/servlets/examples/TestLogin" method="post">
+-->
+   Enter username: <input type="text" name="username">
+   <input type="submit" value="login">
+   <input type="hidden" name="page" value="loginpage">
+</form>
+</body>
+</html>
+  

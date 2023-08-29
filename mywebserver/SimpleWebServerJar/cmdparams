@@ -1,0 +1,1 @@
+-a aliases.properties -p 80 -l -c cgi-bin -s servlet.properties

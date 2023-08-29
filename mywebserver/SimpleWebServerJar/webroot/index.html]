@@ -1,0 +1,19 @@
+<html>
+
+<header>
+<title>Simple Web Server</title>
+</header>
+<body>
+<p>Brought to you by Joshua M. Paiz
+To access the login page, click <a 
+href="./personalsite/landing.html">here</a></p>
+This is the file <tt>index.html</tt> in the <tt>webroot</tt> directory.
+
+<p> More tests:
+<ul>
+<li> The file <a href="test.html">test.html</a> in the same directory.
+<li> The file <a href="subdir/test2.html">test2.html</a> in the directory <tt>subdir</tt>.
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding-top: 100px;
+        }
+        table {
+            width: 100%;
+        }
+        td {
+            padding: 10px 0;
+        }
+        h1 {
+            color: rgb(128, 0, 32);
+        }
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+        }
+        input[type="text"], input[type="password"] {
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Website!</h1>
+        <p style="text-align: right">To learn more about Dr. Paiz, click <a href="./mypage.html">here</a></p>
+        <form action="/login" method="post">
+            <table>
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" id="username" name="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Log In">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Desperate Professor Member's Login</title>
+    </head>
+    <body>
+        <div> 
+            <h1 style="text-align:center">Desperate Professor's Login Page</h1>
+            <h2 style="text-align:center">Membership has its perks!</h2>
+        </div>
+        <div>
+            <form action="../../servlets/a2servlets/A2Servlet" method="post">
+                Enter Your Username: <input type="text" placeholder="Enter your username here" name="username">
+                <p></p>
+                Enter Your Password: <input type="password" placeholder="Enter your password here" name="password">
+                <p></p>
+                <input type="submit" name="action" value="Login to Shop" style="margin-left: 17%;">
+                <input type="hidden" name="page" value="loginpage">
+                <input type="hidden" name=loggedin value="false">
+            </form>
+        </div>
+    </body>
+ </html>
